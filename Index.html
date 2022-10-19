@@ -17,12 +17,13 @@
                 <h2>flex-direction</h2>
                 <article id="flex-direction-container">
                     <div>
-                        <h3>flex-direction: row (default)</h3>
+                        <h3>flex-direction: row</h3>
                         <div id="flex-direction-row-example" class="flex-items-container">
                             <div class="flex-item">1</div>
                             <div class="flex-item">2</div>
                             <div class="flex-item">3</div>
                         </div>
+                        <p>flex-direction row can be used to make a smimple row that conforms to a div tag</p>
                     </div>
                     <div>
                         <h3>flex-direction: column</h3>
@@ -31,6 +32,16 @@
                             <div class="flex-item">2</div>
                             <div class="flex-item">3</div>
                         </div>
+                        <p>flex direction column can be used to make a list that goes from top to bottom</p>
+                    </div>
+                    <div>
+                        <h3>flex-direction: column-reverse</h3>
+                        <div id="flex-direction-columnreverse-example" class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                        </div>
+                        <p>flex direction column reverse is very similar to the previous flex direction, however it goes from bottom to top instead</p>
                     </div>
                 </article>
             </div>
@@ -38,7 +49,77 @@
                 <h2>flex-wrap</h2>
                 <h2>try resizing the screen to see what happens to these flex-items</h2>
                 <article id="flex-wrap-container">
-                    
+                    <div>
+                        <h3>flex-wrap: wrap</h3>
+                        <div id="flex-wrap-wrap-example" class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                            <div class="flex-item">4</div>
+                            <div class="flex-item">5</div>
+                            <div class="flex-item">6</div>
+                            <div class="flex-item">7</div>
+                        </div>
+                        <p>flex wrap can be used to make a list that conforms to screen size by wrapping up</p>
+                    </div>
+                    <div>
+                        <h3>flex-wrap: no wrap</h3>
+                        <div id="flex-wrap-nowrap-example" class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                            <div class="flex-item">4</div>
+                            <div class="flex-item">5</div>
+                            <div class="flex-item">6</div>
+                            <div class="flex-item">7</div>
+                        </div>
+                        <p>similar to above, however it does not conform and will simply go off screen</p>
+                    </div>
+                    <div>
+                        <h3>flex-wrap: wrap-reverse</h3>
+                        <div id="flex-wrap-reverse-example" class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                            <div class="flex-item">4</div>
+                            <div class="flex-item">5</div>
+                            <div class="flex-item">6</div>
+                            <div class="flex-item">7</div>
+                        </div>
+                        <p>flex wrap reverse is the same as normal flex wrap, but it wraps up instead of down</p>
+                    </div>
+                </article>
+            </div>
+            <div>
+                <h1>justify-content</h1>
+                <article id="justify-content-container">
+                    <div id="justify-center">
+                        <h2>center</h2>
+                        <div class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                        </div>
+                        <p>the center justify flex box can be used to make a list that will always be centered regardless of screen size</p>
+                    </div>
+                    <div id="flex-start">
+                        <h2>flex-start</h2>
+                        <div class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                        </div>
+                        <p>the start flex box can be used to make a list that will always appear on the left side of the screen</p>
+                    </div>
+                    <div id="flex-end">
+                        <h2>flex-end</h2>
+                        <div class="flex-items-container">
+                            <div class="flex-item">1</div>
+                            <div class="flex-item">2</div>
+                            <div class="flex-item">3</div>
+                        </div>
+                        <p>the end flex box can be used to make a list that will always appear on the right side of the screen</p>
+                    </div>
                 </article>
             </div>
         </section>
